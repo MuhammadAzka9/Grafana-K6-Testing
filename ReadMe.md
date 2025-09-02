@@ -8,7 +8,7 @@ Install Grafana k6:
 
 Berikut command untuk menjalankan Grafana k6:
   1. Cara menjalankan k6 agar terlihat grafiknya
-     '$env:K6_WEB_DASHBOARD = "true"; k6 run namascript.js'
+     `$env:K6_WEB_DASHBOARD = "true"; k6 run namascript.js`
 
   2. Cara menjalankan k6 agar terlihat browsernya
-     '$env:K6_BROWSER_ENABLED='true'; $env:K6_BROWSER_HEADLESS='false'; k6 run namascript.js'
+     `$env:K6_BROWSER_ENABLED='true'; $env:K6_BROWSER_HEADLESS='false'; k6 run namascript.js`
